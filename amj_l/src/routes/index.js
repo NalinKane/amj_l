@@ -1,5 +1,6 @@
 import Home from "../pages/Home";
-import About from "../pages/About";
+import Contact from "../pages/Contact";
+import Portfolio from "../pages/Portfolio";
 
 const routes = [
   {
@@ -8,8 +9,12 @@ const routes = [
     component: Home
   },
   {
-    path: "/about",
-    component: About
+    path: "/portfolio",
+    component: Portfolio
+  },
+  {
+    path: "/contact",
+    component: Contact
   }
 ];
 

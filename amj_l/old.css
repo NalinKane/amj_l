@@ -7,12 +7,10 @@
 
 .form-content {
   background: #ffffff;
+  justify-content: center;
+  align-content: center;
   display: flex;
   height: 16px;
-}
-
-.pageBody {
-  padding: 20px;
 }
 
 .heading {
@@ -20,11 +18,6 @@
   font-family: "Georgia", Times, "Times New Roman", serif;
   border-bottom: solid #cccccc 2px;
   padding: 10px;
-}
-
-.paragraph {
-  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  color: #777777;
 }
 
 .group {
@@ -150,7 +143,7 @@
   position: absolute;
   top: 3px;
   left: -22px;
-  background-image: url("../images/gh-ico.png");
+  background-image: url("/gh-ico.png");
   background-repeat: no-repeat;
   background-size: 16px 16px;
   width: 16px;
@@ -158,27 +151,11 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .column {
-    width: 680px;
-    padding: 15px;
-  }
   .input {
     width: 100%;
   }
 
   .group {
     width: 300px;
-  }
-}
-
-@media only screen and (min-width: 960px) {
-  .column {
-    width: 960px;
-    padding: 20px;
-    margin: 0 auto;
-  }
-
-  .pageBody {
-    padding: 0;
   }
 }

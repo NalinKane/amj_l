@@ -1,0 +1,14 @@
+.pageBody {
+  padding: 20px;
+}
+
+.paragraph {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: #777777;
+}
+
+@media only screen and (min-width: 960px) {
+  .pageBody {
+    padding: 0;
+  }
+}
